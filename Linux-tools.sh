@@ -73,3 +73,12 @@ sub(r,t,s)
 gsub(r,t,s)
 tolower(str)
 toupper(str)
+
+# example
+awk '
+BEGIN { actions } 
+/pattern/ { actions }
+/pattern/ { actions }
+……….
+END { actions } 
+' filenames
